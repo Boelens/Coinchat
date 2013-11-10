@@ -1,0 +1,21 @@
+doctype 5
+html
+  head
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+    link(rel='stylesheet', href='/css/style.css')    
+    title Coinchat
+  body
+    h1 Coinchat
+    div
+      div.inlineBlock
+        span Your name:
+          input(type="text", value="Anonymous")#name
+        br
+        form#messageForm
+          textarea(rows="4", cols="50", placeholder="Type something!", maxlength=200)#outgoingMessage
+          input(type="button", value="Send", disabled=true)#send
+      div.inlineBlock.topAligned
+        b Participants
+        br
+        div#participants
+    div#messages

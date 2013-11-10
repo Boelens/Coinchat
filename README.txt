@@ -1,0 +1,1 @@
+This is the new coinchat that I am in progres of making. This uses node.js and Jade. I'm learning as I'm making this.
